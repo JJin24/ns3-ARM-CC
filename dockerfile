@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 LABEL maintainer="JJin24 <lijinting32@gmail.com>"
+LABEL org.opencontainers.image.source="https://github.com/jjin24/ns3-arm-cc"
 
 # 使用台灣的 Ubuntu 軟體源 (TWDS)
 RUN sed -i 's|http://archive.ubuntu.com/ubuntu/|http://tw.archive.ubuntu.com/ubuntu/|g' \
